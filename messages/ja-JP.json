@@ -1,0 +1,99 @@
+{
+  "page": {
+    "main": "トップページ",
+    "edit": "このページを編集",
+    "back": "前のページに戻る",
+    "backMonitor": "監視リストに戻る"
+  },
+  "timer": {
+    "pause": "一時停止",
+    "paused": "一時停止中",
+    "refreshing": "更新中...",
+    "refreshNow": "今すぐ更新",
+    "lastTime": "最終更新: {time}",
+    "nextTime": "更新まで {sec} 秒",
+    "refreshSuccess": "更新成功",
+    "pausedInfo": "自動更新を一時停止しました",
+    "resumedInfo": "自動更新を再開しました"
+  },
+  "locale": {
+    "changing": "{locale} に切り替え中...",
+    "changed": "{locale} に切り替えました",
+    "changeError": "言語切り替え失敗"
+  },
+  "error": {
+    "unknown": "不明なエラー",
+    "refresh": "更新失敗",
+    "monitorNotFound": "監視項目が見つかりません",
+    "requestData": "データ取得に失敗しました"
+  },
+  "node": {
+    "search": "ノードを検索...",
+    "clearSearch": "検索をクリア",
+    "filterResults": "{count} 件の一致するノードが見つかりました",
+    "noMatchingResults": "一致するノードが見つかりません",
+    "clearFilter": "フィルターをクリア",
+    "searchTime": "検索時間: {time}ms",
+    "uptimeStatus": "稼働率（24時間）",
+    "latestPing": "最新レイテンシ",
+    "avgPing": "平均レイテンシ",
+    "trimmedAvgPing": "調整後平均レイテンシ",
+    "online": "稼働中",
+    "offline": "停止中",
+    "pending": "再試行中",
+    "maintenance": "保守中",
+    "count": "直近 {count} 回分",
+    "allStatus": "すべてのステータス",
+    "filterByStatus": "ステータスでフィルター",
+    "searchInGroups": "グループ内で検索",
+    "filterTooltip": "グループ名で検索を有効にする",
+    "groupMatched": "グループ名一致",
+    "statusFilter": {
+      "up": "稼働中",
+      "down": "停止中",
+      "pending": "再試行中",
+      "maintenance": "保守中"
+    }
+  },
+  "alert": {
+    "createdAt": "作成日時: {time}",
+    "updatedAt": "更新日時: {time}"
+  },
+  "navbar": {
+    "main": "メインナビゲーション",
+    "toolbar": "ツールバー",
+    "mobileToolbar": "モバイルツールバー",
+    "mobileNav": "モバイルメインナビゲーション",
+    "search": "検索"
+  },
+  "mode": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  },
+  "noData": "データがありません",
+  "safariWarning": "Safari ブラウザはまだサポートされていません",
+  "view": {
+    "switchToLite": "簡易表示に切り替え",
+    "switchToFull": "詳細表示に切り替え",
+    "safariWarning": "まだサポートされていません"
+  },
+  "maintenance": {
+    "default": "メンテナンス中",
+    "InProgress": "メンテナンス実施中",
+    "Scheduled": "計画メンテナンス",
+    "Progress": "メンテナンス進捗",
+    "StartsIn": "{time}に開始予定",
+    "EndsIn": "{time}に終了予定",
+    "timezoneInfo": "タイムゾーン: {timezone}",
+    "scheduledMaintenance": "計画のメンテナンス",
+    "maintenanceInProgress": "メンテナンス"
+  },
+  "status": {
+    "loading": "読み込み中...",
+    "systemNormal": "すべてのサービスが正常に稼働しています",
+    "systemWarning": "一部サービスに障害が発生しています",
+    "systemError": "システムに重大障害が発生しました",
+    "systemUnknown": "システム状態を確認できません"
+  }
+}
