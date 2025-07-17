@@ -1,0 +1,99 @@
+{
+  "page": {
+    "main": "홈",
+    "edit": "이 페이지 편집",
+    "back": "이전 페이지로",
+    "backMonitor": "모니터링 목록으로 돌아가기"
+  },
+  "timer": {
+    "pause": "일시정지",
+    "paused": "일시정지됨",
+    "refreshing": "새로고침 중...",
+    "refreshNow": "지금 새로고침",
+    "lastTime": "마지막 새로고침: {time}",
+    "nextTime": "{sec}초 후 새로고침",
+    "refreshSuccess": "새로고침 성공",
+    "pausedInfo": "자동 새로고침 일시정지됨",
+    "resumedInfo": "자동 새로고침 재개됨"
+  },
+  "locale": {
+    "changing": "{locale}(으)로 변경 중...",
+    "changed": "{locale}(으)로 변경됨",
+    "changeError": "언어 변경 실패"
+  },
+  "error": {
+    "unknown": "알 수 없는 오류",
+    "refresh": "새로고침 실패",
+    "monitorNotFound": "모니터를 찾을 수 없음",
+    "requestData": "데이터 가져오기 실패"
+  },
+  "node": {
+    "search": "노드 검색...",
+    "clearSearch": "검색 지우기",
+    "filterResults": "{count}개의 일치하는 노드 찾음",
+    "noMatchingResults": "일치하는 노드를 찾을 수 없음",
+    "clearFilter": "필터 지우기",
+    "searchTime": "소요 시간 {time}ms",
+    "uptimeStatus": "가동률 (24시간)",
+    "latestPing": "최신 지연 시간",
+    "avgPing": "평균 지연 시간",
+    "trimmedAvgPing": "조정된 평균",
+    "online": "온라인",
+    "offline": "오프라인",
+    "pending": "재시도 중",
+    "maintenance": "유지보수 중",
+    "count": "최근 {count}회",
+    "allStatus": "모든 상태",
+    "filterByStatus": "상태별 필터링",
+    "searchInGroups": "그룹 내 검색",
+    "filterTooltip": "그룹명 검색 활성화",
+    "groupMatched": "그룹명 일치",
+    "statusFilter": {
+      "up": "온라인",
+      "down": "오프라인",
+      "pending": "재시도 중",
+      "maintenance": "유지보수 중"
+    }
+  },
+  "alert": {
+    "createdAt": "{time}에 게시됨",
+    "updatedAt": "{time}에 업데이트됨"
+  },
+  "navbar": {
+    "main": "메인 네비게이션",
+    "toolbar": "도구 모음",
+    "mobileToolbar": "모바일 도구 모음",
+    "mobileNav": "모바일 메인 네비게이션",
+    "search": "검색"
+  },
+  "mode": {
+    "light": "라이트 모드",
+    "dark": "다크 모드",
+    "system": "시스템 설정 따름"
+  },
+  "noData": "데이터 없음",
+  "safariWarning": "Safari 브라우저 미지원",
+  "view": {
+    "switchToLite": "라이트 뷰로 전환",
+    "switchToFull": "전체 뷰로 전환",
+    "safariWarning": "아직 지원되지 않습니다"
+  },
+  "maintenance": {
+    "default": "예정된 유지보수",
+    "InProgress": "유지보수 진행 중",
+    "Scheduled": "예정된 유지보수",
+    "Progress": "유지보수 진행률",
+    "StartsIn": "{time}에 시작 예정",
+    "EndsIn": "{time}에 종료 예정",
+    "timezoneInfo": "시간대: {timezone}",
+    "scheduledMaintenance": "계획 유지 보수",
+    "maintenanceInProgress": "유지"
+  },
+  "status": {
+    "loading": "로딩 중...",
+    "systemNormal": "모든 서비스 정상",
+    "systemWarning": "일부 서비스 이상",
+    "systemError": "서비스 실행 오류",
+    "systemUnknown": "서비스 상태 알 수 없음"
+  }
+}

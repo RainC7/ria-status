@@ -1,0 +1,99 @@
+{
+  "page": {
+    "main": "Главная",
+    "edit": "Редактировать эту страницу",
+    "back": "Назад",
+    "backMonitor": "К списку мониторинга"
+  },
+  "timer": {
+    "pause": "Пауза",
+    "paused": "На паузе",
+    "refreshing": "Обновление...",
+    "refreshNow": "Обновить сейчас",
+    "lastTime": "Последнее обновление: {time}",
+    "nextTime": "Обновление через {sec} сек.",
+    "refreshSuccess": "Обновлено успешно",
+    "pausedInfo": "Автообновление приостановлено",
+    "resumedInfo": "Автообновление возобновлено"
+  },
+  "locale": {
+    "changing": "Переключение на {locale}...",
+    "changed": "Переключено на {locale}",
+    "changeError": "Ошибка смены языка"
+  },
+  "error": {
+    "unknown": "Неизвестная ошибка",
+    "refresh": "Ошибка обновления",
+    "monitorNotFound": "Монитор не найден",
+    "requestData": "Ошибка получения данных"
+  },
+  "node": {
+    "search": "Поиск узлов...",
+    "clearSearch": "Очистить поиск",
+    "filterResults": "Найдено {count} узлов",
+    "noMatchingResults": "Подходящих узлов не найдено",
+    "clearFilter": "Очистить фильтр",
+    "searchTime": "Затрачено {time}мс",
+    "uptimeStatus": "Доступность (24 ч)",
+    "latestPing": "Последний пинг",
+    "avgPing": "Средний пинг",
+    "trimmedAvgPing": "Сред. усеч.",
+    "online": "Онлайн",
+    "offline": "Офлайн",
+    "pending": "Повтор",
+    "maintenance": "Обслуживание",
+    "count": "Последние {count}",
+    "allStatus": "Все статусы",
+    "filterByStatus": "Фильтр по статусу",
+    "searchInGroups": "Искать в группах",
+    "filterTooltip": "Включить поиск по названию группы",
+    "groupMatched": "Совпадение в группе",
+    "statusFilter": {
+      "up": "Онлайн",
+      "down": "Офлайн",
+      "pending": "Повтор",
+      "maintenance": "Обслуживание"
+    }
+  },
+  "alert": {
+    "createdAt": "Опубликовано {time}",
+    "updatedAt": "Обновлено {time}"
+  },
+  "navbar": {
+    "main": "Главная навигация",
+    "toolbar": "Панель инструментов",
+    "mobileToolbar": "Моб. панель",
+    "mobileNav": "Моб. навигация",
+    "search": "Поиск"
+  },
+  "mode": {
+    "light": "Светлая тема",
+    "dark": "Тёмная тема",
+    "system": "Как в системе"
+  },
+  "noData": "Нет данных",
+  "safariWarning": "Safari не поддерживается",
+  "view": {
+    "switchToLite": "Упрощенный вид",
+    "switchToFull": "Полный вид",
+    "safariWarning": "Еще не поддерживается"
+  },
+  "maintenance": {
+    "default": "Плановое обслуживание",
+    "InProgress": "Идёт обслуживание",
+    "Scheduled": "Запланировано",
+    "Progress": "Прогресс",
+    "StartsIn": "Начнётся в {time}",
+    "EndsIn": "Закончится в {time}",
+    "timezoneInfo": "Часовой пояс: {timezone}",
+    "scheduledMaintenance": "Планируйте техническое обслуживание",
+    "maintenanceInProgress": "Обслуживание"
+  },
+  "status": {
+    "loading": "Загрузка...",
+    "systemNormal": "Все сервисы в норме",
+    "systemWarning": "Некоторые сервисы с ошибками",
+    "systemError": "Ошибка работы сервисов",
+    "systemUnknown": "Статус сервисов неизвестен"
+  }
+}

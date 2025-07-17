@@ -1,0 +1,99 @@
+{
+  "page": {
+    "main": "首頁",
+    "edit": "編輯此頁",
+    "back": "返回上一頁",
+    "backMonitor": "返回監控清單"
+  },
+  "timer": {
+    "pause": "暫停",
+    "paused": "已暫停",
+    "refreshing": "重新整理中...",
+    "refreshNow": "立即重新整理",
+    "lastTime": "上次更新：{time}",
+    "nextTime": "將於 {sec} 秒後重新整理",
+    "refreshSuccess": "重新整理成功",
+    "pausedInfo": "自動重新整理已暫停",
+    "resumedInfo": "自動重新整理已恢復"
+  },
+  "locale": {
+    "changing": "正在切換到 {locale}...",
+    "changed": "已切換到 {locale}",
+    "changeError": "語言切換失敗"
+  },
+  "error": {
+    "unknown": "未知錯誤",
+    "refresh": "重新整理失敗",
+    "monitorNotFound": "找不到監控項目",
+    "requestData": "取得資料失敗"
+  },
+  "node": {
+    "search": "搜尋節點...",
+    "clearSearch": "清除搜尋",
+    "filterResults": "{count} 個匹配節點",
+    "noMatchingResults": "未找到匹配節點",
+    "clearFilter": "清除篩選",
+    "searchTime": "耗時 {time}ms",
+    "uptimeStatus": "可用率 (24 小時)",
+    "latestPing": "最新延遲",
+    "avgPing": "平均延遲",
+    "trimmedAvgPing": "截尾平均延遲",
+    "online": "線上",
+    "offline": "離線",
+    "pending": "重試中",
+    "maintenance": "維護中",
+    "count": "最近 {count} 次",
+    "allStatus": "所有狀態",
+    "filterByStatus": "按狀態篩選",
+    "searchInGroups": "在分組中搜尋",
+    "filterTooltip": "啟用此選項可在組名中搜尋",
+    "groupMatched": "組名匹配",
+    "statusFilter": {
+      "up": "線上",
+      "down": "離線",
+      "pending": "重試中",
+      "maintenance": "維護中"
+    }
+  },
+  "alert": {
+    "createdAt": "發佈於 {time}",
+    "updatedAt": "更新於 {time}"
+  },
+  "navbar": {
+    "main": "主導航欄",
+    "toolbar": "工具欄",
+    "mobileToolbar": "行動版工具列",
+    "mobileNav": "行動版主導航列",
+    "search": "搜尋"
+  },
+  "mode": {
+    "light": "淺色模式",
+    "dark": "深色模式",
+    "system": "跟隨系統"
+  },
+  "noData": "暫無資料",
+  "safariWarning": "尚不支援 Safari 瀏覽器",
+  "view": {
+    "switchToLite": "切換至精簡檢視",
+    "switchToFull": "切換至完整檢視",
+    "safariWarning": "暫不支持 Safari"
+  },
+  "maintenance": {
+    "default": "計劃維護中",
+    "InProgress": "正在維護中",
+    "Scheduled": "排定維護",
+    "Progress": "維護進度",
+    "StartsIn": "預計於 {time} 開始",
+    "EndsIn": "預計於 {time} 結束",
+    "timezoneInfo": "時區: {timezone}",
+    "scheduledMaintenance": "計劃維護",
+    "maintenanceInProgress": "正在維護中"
+  },
+  "status": {
+    "loading": "載入中...",
+    "systemNormal": "所有服務正常運作",
+    "systemWarning": "部分服務發生異常",
+    "systemError": "服務嚴重異常",
+    "systemUnknown": "服務狀態不明"
+  }
+}
