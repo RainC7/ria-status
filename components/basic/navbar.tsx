@@ -101,18 +101,6 @@ export const Navbar = () => {
     </div>
   );
 
-  const starButton = (
-    <Button
-      isExternal
-      as={Link}
-      className="text-sm font-normal text-default-600 bg-default-100"
-      href={siteConfig.links.github}
-      startContent={<GithubIcon />}
-      variant="flat"
-    >
-      Star on Github
-    </Button>
-  );
 
   const getIconUrl = () => {
     if (apiConfig.siteMeta.icon) {
@@ -133,6 +121,7 @@ export const Navbar = () => {
               alt={`${apiConfig.siteMeta.title} logo`}
               width={34}
               height={34}
+              className="rounded-lg"
             />
             <p className="font-bold text-inherit">{apiConfig.siteMeta.title}</p>
           </NextLink>
@@ -170,7 +159,6 @@ export const Navbar = () => {
             <li className="hidden lg:block">
               <div className="flex flex-col">{searchInput}</div>
             </li>
-            <li className="hidden sm:block">{apiConfig.isShowStarButton && starButton}</li>
           </ul>
         </nav>
       </NavbarContent>
@@ -207,7 +195,6 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarMenu className="z-[60]">
-        {apiConfig.isShowStarButton && starButton}
         <div className="flex flex-col gap-4">{searchInput}</div>
         <nav aria-label={t('navbar.mobileNav')}>
           <ul className="mx-4 mt-4 flex flex-col gap-2">
