@@ -52,7 +52,9 @@ export default async function RootLayout({
 
   return (
     <html suppressHydrationWarning={true} lang={locale}>
-      <head />
+      <head>
+        <script defer src="https://analysis.602007.xyz/script.js" data-website-id="d1906d11-e699-4abb-99e5-55889f6fd77c"></script>
+      </head>
       <body
         className={clsx(
           'min-h-screen bg-background font-sans antialiased',

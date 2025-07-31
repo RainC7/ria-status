@@ -14,7 +14,7 @@ import Image from 'next/image';
 import NextLink from 'next/link';
 import { useCallback, useEffect, useRef } from 'react';
 
-import { GithubIcon, SearchIcon } from '@/components/basic/icons';
+import { GithubIcon, SearchIcon, HomeIcon, WikiIcon, MapIcon, CalendarIcon, BlogIcon, EditIcon } from '@/components/basic/icons';
 import { ThemeSwitch } from '@/components/basic/theme-switch';
 import { NavbarSkeleton } from '@/components/ui/CommonSkeleton';
 import { apiConfig } from '@/config/api';
@@ -27,6 +27,18 @@ import { I18NSwitch } from './i18n-switch';
 
 const isExternalUrl = (url: string) => {
   return url?.startsWith('http://') || url?.startsWith('https://');
+};
+
+const getNavIcon = (label: string) => {
+  const iconMap: Record<string, React.ReactNode> = {
+    'page.main': <HomeIcon className="w-4 h-4" />,
+    'page.wiki': <WikiIcon className="w-4 h-4" />,
+    'page.map': <MapIcon className="w-4 h-4" />,
+    'page.calendar': <CalendarIcon className="w-4 h-4" />,
+    'page.blog': <BlogIcon className="w-4 h-4" />,
+    'page.edit': <EditIcon className="w-4 h-4" />,
+  };
+  return iconMap[label] || null;
 };
 
 export const Navbar = () => {
@@ -133,12 +145,13 @@ export const Navbar = () => {
                 <NextLink
                   className={clsx(
                     linkStyles({ color: 'foreground' }),
-                    'data-[active=true]:text-primary data-[active=true]:font-medium'
+                    'data-[active=true]:text-primary data-[active=true]:font-medium flex items-center gap-1'
                   )}
                   color="foreground"
                   href={item.href}
                   target={item.external ? '_blank' : '_self'}
                 >
+                  {getNavIcon(item.label)}
                   {t(item.label)}
                 </NextLink>
               </li>
@@ -211,7 +224,9 @@ export const Navbar = () => {
                   href={item.href}
                   target={item.external ? '_blank' : '_self'}
                   size="lg"
+                  className="flex items-center gap-2"
                 >
+                  {getNavIcon(item.label)}
                   {t(item.label)}
                 </Link>
               </li>
