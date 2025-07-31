@@ -16,11 +16,6 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   {
-    label: 'page.main',
-    href: '/',
-    external: false,
-  },
-  {
     label: 'page.wiki',
     href: 'https://wiki.ria.red',
     external: true,
