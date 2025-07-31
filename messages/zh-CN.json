@@ -1,6 +1,10 @@
 {
   "page": {
     "main": "首页",
+    "wiki": "Wiki",
+    "map": "地图",
+    "calendar": "活动日历",
+    "blog": "博客",
     "edit": "编辑此页",
     "back": "返回上一页",
     "backMonitor": "返回监控列表"

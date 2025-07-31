@@ -21,6 +21,26 @@ const navItems: NavItem[] = [
     external: false,
   },
   {
+    label: 'page.wiki',
+    href: 'https://wiki.ria.red',
+    external: true,
+  },
+  {
+    label: 'page.map',
+    href: 'https://satellite.ria.red/',
+    external: true,
+  },
+  {
+    label: 'page.calendar',
+    href: 'https://ria-event.lynn6.top',
+    external: true,
+  },
+  {
+    label: 'page.blog',
+    href: 'https://blog.lynn6.cn',
+    external: true,
+  },
+  {
     label: 'page.edit',
     href: `${env.config.baseUrl}/manage-status-page`,
     external: true,

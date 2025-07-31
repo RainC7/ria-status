@@ -1,6 +1,10 @@
 {
   "page": {
     "main": "Home",
+    "wiki": "Wiki",
+    "map": "Map",
+    "calendar": "Calendar",
+    "blog": "Blog",
     "edit": "Edit this page",
     "back": "Go back",
     "backMonitor": "Back to monitor list"
