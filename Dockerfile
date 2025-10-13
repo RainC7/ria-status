@@ -1,4 +1,4 @@
-FROM oven/bun:1.2-alpine AS builder
+FROM oven/bun:1.3-alpine AS builder
 WORKDIR /app
 
 ARG NODE_ENV=production
@@ -47,7 +47,7 @@ RUN set -e && \
   bun run build || { echo "Build failed"; exit 1; }
 
 # Runtime image
-FROM oven/bun:1.2-alpine
+FROM oven/bun:1.3-alpine
 WORKDIR /app
 
 ARG PORT=3000
